@@ -53,10 +53,9 @@ Semantic structure:
 
 profile-card/
 │
-├── index.html
-├── contact.html
-├── about.html
-├── style.css
-├── script.js
-├── contact.js
-└── README.md
+├── index.html          # Profile Card Page
+├── contact.html        # Contact Us Page
+├── about.html          # About Me Page
+├── style.css           # Shared styling
+├── script.js           # JS logic (profile time + form validation)
+└── README.md           # Documentation

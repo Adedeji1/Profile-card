@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <!-- Profile Card Root -->
+      <article data-testid="test-profile-card" class="profile-card">
+        <figure class="avatar-container">
+          <img src="https://i.pravatar.cc/200" alt="User Avatar" data-testid="test-user-avatar" />
+        </figure>
+
+        <div class="profile-content">
+          <header>
+            <h2 data-testid="test-user-name">Adedeji Afolabi</h2>
+          </header>
+
+          <p data-testid="test-user-bio">
+            Passionate Frontend Developer who enjoys crafting clean, responsive web interfaces with React and Tailwind
+            CSS.
+          </p>
+
+          <p class="time">
+            Current Time (ms):
+            <span data-testid="test-user-time"></span>
+          </p>
+
+          <nav aria-label="User Social Links">
+            <ul data-testid="test-user-social-links" class="social-links">
+              <li>
+                <a
+                  href="https://twitter.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-testid="test-user-social-twitter"
+                >
+                  Twitter
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Adedeji1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-testid="test-user-social-github"
+                >
+                  GitHub
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/afolabi-adedeji-4019a6225/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-testid="test-user-social-linkedin"
+                >
+                  LinkedIn
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+          <section>
+            <h3>Hobbies</h3>
+            <ul data-testid="test-user-hobbies">
+              <li>Coding</li>
+              <li>Traveling</li>
+              <li>Photography</li>
+            </ul>
+          </section>
+
+          <section>
+            <h3>Dislikes</h3>
+            <ul data-testid="test-user-dislikes">
+              <li>Procrastination</li>
+              <li>Noise</li>
+              <li>Slow internet</li>
+            </ul>
+          </section>
+        </div>
+      </article>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

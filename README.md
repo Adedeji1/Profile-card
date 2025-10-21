@@ -52,12 +52,11 @@ Semantic structure:
 ## File Structure
 
 profile-card/
-
 │
-├── index.html          # Profile Card
-├── contact.html        # Contact Us Page
-├── about.html          # About Me Page
-├── style.css           # Shared styling
-├── script.js           # Profile time script
-├── contact.js          # Contact page logic + validation
-├── README.md           # Documentation
+├── index.html
+├── contact.html
+├── about.html
+├── style.css
+├── script.js
+├── contact.js
+└── README.md

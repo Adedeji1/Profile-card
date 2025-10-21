@@ -128,3 +128,85 @@ section ul {
     padding: 2rem;
   }
 }
+
+/* ---------- CONTACT PAGE ---------- */
+.contact-page {
+  background: #fff;
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+label {
+  font-weight: 600;
+}
+
+input, textarea {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  resize: none;
+}
+
+input:focus, textarea:focus {
+  outline: 2px solid #ed8f03;
+}
+button {
+  background: #ed8f03;
+  color: #fff;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+.error {
+  color: red;
+  font-size: 0.85rem;
+}
+
+.success {
+  color: green;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+/* ---------- ABOUT PAGE ---------- */
+.about-page {
+  background: #fff;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.about-page section {
+  margin-top: 1.5rem;
+}
+
+.about-page h1 {
+  color: #ed8f03;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.about-page h2 {
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.about-page p {
+  color: #555;
+  line-height: 1.6;
+}
